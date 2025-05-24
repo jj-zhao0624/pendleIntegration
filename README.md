@@ -1,8 +1,8 @@
 # Pendle Integration DApp
 
-A decentralized application (DApp) for interacting with Pendle Protocol on the Base network. This application allows users to trade Principal Tokens (PT) and Yield Tokens (YT) through a simple and intuitive interface.
+This is a decentralized application (DApp) for interacting with Pendle Protocol on the Base network. This application allows users to trade Principal Tokens (PT) and Yield Tokens (YT) through a simple and intuitive interface.
 
-🌐 **Demo (Vercel Deployment)**: [pendle-integration.vercel.app](https://pendle-integration.vercel.app)
+**Demo (Vercel Deployment)**: [pendle-integration.vercel.app](https://pendle-integration.vercel.app)
 
 ## Features
 
