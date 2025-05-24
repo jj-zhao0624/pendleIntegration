@@ -6,12 +6,12 @@ A decentralized application (DApp) for interacting with Pendle Protocol on the B
 
 ## Features
 
-- 🔐 Authentication with Privy (Email and Wallet login)
-- 💱 Buy and Sell PT/YT positions
-- 📊 Real-time market data and price impact calculations
-- 💼 Wallet integration and balance tracking
-- 🔄 Support for Base network
-- 📱 Responsive design for mobile and desktop
+- Authentication with Privy (Email and Wallet login)
+- Buy and Sell PT/YT positions
+- Real-time market data and price impact calculations
+- Wallet integration and balance tracking
+- Support for Base network
+- Responsive design for mobile and desktop
 
 ## Technical Stack
 
