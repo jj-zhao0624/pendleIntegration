@@ -149,6 +149,130 @@
       ],
       "stateMutability": "nonpayable",
       "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "tokenIn",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "netTokenIn",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "tokenMintSy",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "pendleSwap",
+              "type": "address"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "bytes",
+                  "name": "swapData",
+                  "type": "bytes"
+                }
+              ],
+              "internalType": "struct SwapData",
+              "name": "swapData",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct TokenInput",
+          "name": "input",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "tokenOut",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "minTokenOut",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "tokenRedeemSy",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "pendleSwap",
+              "type": "address"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "bytes",
+                  "name": "swapData",
+                  "type": "bytes"
+                }
+              ],
+              "internalType": "struct SwapData",
+              "name": "swapData",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct TokenOutput",
+          "name": "output",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "guessMin",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "guessMax",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "guessOffchain",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "maxIteration",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "eps",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct ApproxParams",
+          "name": "approx",
+          "type": "tuple"
+        }
+      ],
+      "name": "swapExactTokenForPt",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "netPtOut",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
     }
   ],
   "contractName": "PendleRouter",
